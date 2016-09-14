@@ -1,0 +1,19 @@
+{
+  "Collapse": "Click para Reducir",
+  "Expand": "Click para Expandir",
+  "CResults": "Reducir Resultados",
+  "EResults": "Expandir Resultados",
+  "Type": "Escribe algo para ver el output",
+  "Understand": "Watson entiende",
+  "Something": "Escribe algo...",
+  "Description": "Aqui va una descripción a definir",
+  "Great": "Buena pregunta. Encontre algo que puede servir:",
+  "Intent": "He entendido que tu intento fue",
+  "Log": "El Servicio para estar caido. Por favor intentá nuevamente en un rato.",
+  "WLog": "workspace_id debe estar definido!",
+  "View": "Ver Contenido Detallado",
+  "Content": "Ver Archivo",
+  "Read": "Lee todo el documento aquí",
+  "Disclaimer": "Solo estamos mostrando dos párrafos de todo el artículo.",
+  "NResponse": "Watson no responde"
+}

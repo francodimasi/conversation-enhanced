@@ -16,3 +16,4 @@ applications:
   - conversation-service
   path: build/libs/conversation-enhanced-0.1-SNAPSHOT.war
   memory: 512M
+  host: conversation-link

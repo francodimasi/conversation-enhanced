@@ -5,7 +5,7 @@
   "EResults": "Expand Results",
   "Type": "Type something to see the output",
   "Understand": "Watson understands",
-  "Something": "Type something",
+  "Something": "Type something...",
   "Description": "This Watson app shows how the Conversation service calls on Retrieve and Rank to find answers when it's not sure how to respond. Try testing this below, using the examples in the app description.",
   "Great": "Great question. I found some ideas for you:",
   "Intent": "I understood your intent was ",

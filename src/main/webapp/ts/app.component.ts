@@ -60,7 +60,7 @@ import {PayloadComponent} from './payload';
       </div>
       <footer>
       <label for='textInput' class='inputOutline'>
-        <input id='textInput' class='input responsive-column' placeholder='Type something' type='text'
+        <input id='textInput' class='input responsive-column' placeholder='Escribe algo...' type='text'
           [(ngModel)]='question' (keydown)='keypressed($event)' style='width:100%'>
       </label>
       <div class='draw'></div>
@@ -89,7 +89,7 @@ export class AppComponent {
  * GET request to the respective file.
  */
   private getLang () {
-    let browserLang = window.navigator.language || window.navigator.userLanguage;
+    let browserLang = 'es-AR';
     let complLang = browserLang.split('-');
     let lang    = complLang[0];
     let lang_url = 'locale/' + lang + '.json';
@@ -178,7 +178,7 @@ export class AppComponent {
           let payload = {'input': {'text': ''}};
           let chatColumn = <HTMLElement>document.querySelector ('#scrollingChat');
           this.callConversationService (chatColumn, payload);
-          document.body.style.backgroundColor = 'white';
+          // document.body.style.backgroundColor = 'white';
           chat_app.style.opacity = '1';
           setup.style.display = 'none';
           if (this.setupTimer) {
